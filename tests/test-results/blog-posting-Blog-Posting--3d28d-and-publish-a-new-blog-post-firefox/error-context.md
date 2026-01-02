@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - heading "Blog CMS" [level=2] [ref=e6]
+    - navigation [ref=e7]:
+      - link "📊 Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: /admin
+        - generic [ref=e9]: 📊
+        - text: Dashboard
+      - link "📝 Posts" [ref=e10] [cursor=pointer]:
+        - /url: /admin/posts
+        - generic [ref=e11]: 📝
+        - text: Posts
+      - link "➕ New Post" [ref=e12] [cursor=pointer]:
+        - /url: /admin/posts/new
+        - generic [ref=e13]: ➕
+        - text: New Post
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: 👤
+        - generic [ref=e17]: admin.avinash@blog.com
+      - button "Sign Out" [ref=e18] [cursor=pointer]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - heading "New Post" [level=1] [ref=e22]
+        - generic [ref=e23]:
+          - button "Edit" [ref=e24] [cursor=pointer]
+          - button "Preview" [ref=e25] [cursor=pointer]
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: Title
+            - textbox "Title" [ref=e30]:
+              - /placeholder: Enter post title
+              - text: Test Blog Post 1767379108475
+          - generic [ref=e31]:
+            - generic [ref=e32]: Slug
+            - textbox "Slug" [active] [ref=e33]:
+              - /placeholder: post-url-slug
+              - text: test-blog-post-1767379108475
+          - generic [ref=e34]:
+            - generic [ref=e35]: Content
+            - generic [ref=e37]:
+              - toolbar [ref=e38]:
+                - generic [ref=e39]:
+                  - group [ref=e40]:
+                    - radio "Undo Ctrl+Z" [disabled]:
+                      - generic:
+                        - img
+                  - group [ref=e41]:
+                    - radio "Redo Ctrl+Y" [disabled]:
+                      - generic:
+                        - img
+                - combobox "Block type" [ref=e43]:
+                  - generic: Block type
+                  - img [ref=e45]
+                - combobox [ref=e47]
+                - generic [ref=e48]:
+                  - group [ref=e49]:
+                    - radio "Bold" [ref=e50]:
+                      - img [ref=e52]
+                  - group [ref=e54]:
+                    - radio "Italic" [ref=e55]:
+                      - img [ref=e57]
+                  - group [ref=e59]:
+                    - radio "Underline" [ref=e60]:
+                      - img [ref=e62]
+                - group [ref=e65]:
+                  - radio "Inline code format" [ref=e66]:
+                    - img [ref=e68]
+                - group "toggle group" [ref=e71]:
+                  - radio "Bulleted list" [ref=e72]:
+                    - img [ref=e74]
+                  - radio "Numbered list" [ref=e76]:
+                    - img [ref=e78]
+                  - radio "Check list" [ref=e80]:
+                    - img [ref=e82]
+                - button "Create link" [ref=e84]:
+                  - img [ref=e86]
+                - button [ref=e88]:
+                  - img [ref=e90]
+                - button [ref=e92]:
+                  - img [ref=e94]
+                - button [ref=e96]:
+                  - img [ref=e98]
+              - generic [ref=e100]:
+                - textbox "editable markdown" [ref=e102]:
+                  - paragraph [ref=e103]
+                - generic:
+                  - paragraph
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - heading "Publish" [level=3] [ref=e106]
+            - generic [ref=e107] [cursor=pointer]:
+              - checkbox "Published" [ref=e108]
+              - generic [ref=e109]: Published
+            - button "Create Post" [ref=e111] [cursor=pointer]
+          - generic [ref=e112]:
+            - heading "Excerpt" [level=3] [ref=e113]
+            - textbox "Brief description for previews..." [ref=e114]
+          - generic [ref=e115]:
+            - heading "Cover Image" [level=3] [ref=e116]
+            - textbox "https://example.com/image.jpg" [ref=e117]
+```
